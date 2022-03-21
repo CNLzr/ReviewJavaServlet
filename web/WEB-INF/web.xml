@@ -105,7 +105,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>HelloServletWoniu3</servlet-name>
-        <servlet-class>com.lzr.servlet.HelloServletWoniu3</servlet-class>
+        <servlet-class>com.lzr.servlet.CategoryServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>HelloServletWoniu3</servlet-name>

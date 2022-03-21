@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 
-public class HelloServletWoniu3 extends HttpServlet {
+public class CategoryServlet extends HttpServlet {
     private CategoryService categoryService = new CategoryService();
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
