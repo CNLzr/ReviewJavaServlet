@@ -7,11 +7,8 @@
           <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
         </descriptors>
         <webroots>
-          <root url="file://$MODULE_DIR$/../JavaServlet-day01/web" relative="/" />
+          <root url="file://$MODULE_DIR$/src" relative="/" />
         </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/../JavaServlet-day01/src" />
-        </sourceRoots>
       </configuration>
     </facet>
   </component>
