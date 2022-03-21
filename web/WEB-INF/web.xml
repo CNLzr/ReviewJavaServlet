@@ -3,6 +3,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    <!-- context-param是上下文参数(它属于整个web工程) -->
+    <context-param>
+        <param-name>username</param-name>
+        <param-value>root</param-value>
+    </context-param>
+    <!-- context-param是上下文参数(它属于整个web工程) -->
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>root</param-value>
+    </context-param>
+
 
 <!--    servlet标签给Tomcat配置Servlet程序-->
     <servlet>
@@ -66,6 +77,38 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>ContextServlet</servlet-name>
-        <url-pattern>/contentServlet</url-pattern>
+        <url-pattern>/contextServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>HelloServletWoniu</servlet-name>
+        <servlet-class>com.lzr.servlet.HelloServletWoniu</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ContextServlet2</servlet-name>
+        <servlet-class>com.lzr.servlet.ContextServlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ContextServlet2</servlet-name>
+        <url-pattern>/contextServlet2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HelloServletWoniu</servlet-name>
+        <url-pattern>/woniu1</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>HelloServletWoniu2</servlet-name>
+        <servlet-class>com.lzr.servlet.HelloServletWoniu2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServletWoniu2</servlet-name>
+        <url-pattern>/woniu2</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>HelloServletWoniu3</servlet-name>
+        <servlet-class>com.lzr.servlet.HelloServletWoniu3</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServletWoniu3</servlet-name>
+        <url-pattern>/allCategory</url-pattern>
     </servlet-mapping>
 </web-app>
