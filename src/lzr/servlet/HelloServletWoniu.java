@@ -1,4 +1,4 @@
-package com.lzr.servlet;
+package lzr.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

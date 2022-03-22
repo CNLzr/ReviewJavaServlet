@@ -1,7 +1,7 @@
-package com.lzr.servlet;
+package lzr.servlet;
 
-import com.lzr.entity.Category;
-import com.lzr.service.CategoryService;
+import lzr.entity.Category;
+import lzr.service.CategoryService;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

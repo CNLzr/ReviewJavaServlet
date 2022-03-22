@@ -1,4 +1,4 @@
-package com.lzr.entity;
+package lzr.entity;
 import lombok.Data;
 @Data
 public class Category {

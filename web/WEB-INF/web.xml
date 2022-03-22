@@ -20,7 +20,7 @@
 <!--        servlet-name标签：给Servlet程序起一个别名（一般是类名）-->
         <servlet-name>HelloServlet</servlet-name>
 <!--        servlet-class标签：Servlet程序全类名-->
-        <servlet-class>com.lzr.servlet.HelloServlet</servlet-class>
+        <servlet-class>lzr.servlet.HelloServlet</servlet-class>
         <!-- init-param是初始化参数 -->
         <init-param>
             <!-- 是参数名 -->
@@ -40,6 +40,10 @@
             <!-- 是参数值 -->
             <param-value>123456</param-value>
         </init-param>
+        <init-param>
+            <param-name>ENCODING</param-name>
+            <param-value>GBK</param-value>
+        </init-param>
     </servlet>
 
     <!--    servlet-mapping标签：给Servlet程序配置访问地址-->
@@ -55,7 +59,7 @@
 
     <servlet>
         <servlet-name>HelloServlet2</servlet-name>
-        <servlet-class>com.lzr.servlet.HelloServlet2</servlet-class>
+        <servlet-class>lzr.servlet.HelloServlet2</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -64,7 +68,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>HelloServlet3</servlet-name>
-        <servlet-class>com.lzr.servlet.HelloServlet3</servlet-class>
+        <servlet-class>lzr.servlet.HelloServlet3</servlet-class>
     </servlet>
     
     <servlet-mapping>
@@ -73,7 +77,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>ContextServlet</servlet-name>
-        <servlet-class>com.lzr.servlet.ContextServlet</servlet-class>
+        <servlet-class>lzr.servlet.ContextServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ContextServlet</servlet-name>
@@ -81,11 +85,11 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>HelloServletWoniu</servlet-name>
-        <servlet-class>com.lzr.servlet.HelloServletWoniu</servlet-class>
+        <servlet-class>lzr.servlet.HelloServletWoniu</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ContextServlet2</servlet-name>
-        <servlet-class>com.lzr.servlet.ContextServlet2</servlet-class>
+        <servlet-class>lzr.servlet.ContextServlet2</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ContextServlet2</servlet-name>
@@ -97,7 +101,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>HelloServletWoniu2</servlet-name>
-        <servlet-class>com.lzr.servlet.HelloServletWoniu2</servlet-class>
+        <servlet-class>lzr.servlet.HelloServletWoniu2</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>HelloServletWoniu2</servlet-name>
@@ -105,7 +109,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>HelloServletWoniu3</servlet-name>
-        <servlet-class>com.lzr.servlet.CategoryServlet</servlet-class>
+        <servlet-class>lzr.servlet.CategoryServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>HelloServletWoniu3</servlet-name>

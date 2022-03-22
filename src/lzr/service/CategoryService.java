@@ -1,7 +1,7 @@
-package com.lzr.service;
+package lzr.service;
 
-import com.lzr.entity.Category;
-import com.lzr.mapper.CategoryMapper;
+import lzr.entity.Category;
+import lzr.mapper.CategoryMapper;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;

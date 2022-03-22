@@ -1,6 +1,6 @@
-package com.lzr.mapper;
+package lzr.mapper;
 
-import com.lzr.entity.Category;
+import lzr.entity.Category;
 
 import java.util.List;
 

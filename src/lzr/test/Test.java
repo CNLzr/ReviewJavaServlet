@@ -1,7 +1,7 @@
-package com.lzr.test;
+package lzr.test;
 
-import com.lzr.entity.Category;
-import com.lzr.service.CategoryService;
+import lzr.entity.Category;
+import lzr.service.CategoryService;
 
 import java.util.List;
 
