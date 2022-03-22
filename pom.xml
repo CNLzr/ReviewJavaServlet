@@ -42,6 +42,11 @@
             <artifactId>slf4j-api</artifactId>
             <version>1.7.36</version>
         </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-nop</artifactId>
+            <version>1.7.2</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
@@ -61,7 +66,5 @@
             <artifactId>jsqlparser</artifactId>
             <version>2.0</version>
         </dependency>
-
     </dependencies>
-
 </project>

@@ -115,4 +115,13 @@
         <servlet-name>HelloServletWoniu3</servlet-name>
         <url-pattern>/allCategory</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>AnnotationServlet</servlet-name>
+        <servlet-class>lzr.servlet.AnnotationServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AnnotationServlet</servlet-name>
+        <url-pattern>/annotation</url-pattern>
+    </servlet-mapping>
 </web-app>

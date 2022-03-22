@@ -1,5 +1,3 @@
-package lzr.test;
-
 import lzr.entity.Category;
 import lzr.service.CategoryService;
 

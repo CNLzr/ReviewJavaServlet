@@ -18,7 +18,7 @@ public class CategoryServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println(1);
+        System.out.println("获取商品的category");
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter printWriter = response.getWriter();
         List<Category> allCategory = categoryService.getAllCategory();
